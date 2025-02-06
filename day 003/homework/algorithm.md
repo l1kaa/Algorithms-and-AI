@@ -1,12 +1,13 @@
-largest = a
+largest = a;
 if largest < b:
-    return b
+    largest = b;
 if largest < c:
-    return c
+    largest = c;
 if largest < d:
-    return d
+    largest = d;
 if largest < e:
-    return e
+    largest = e;
+return largest
 
 5! = 120. სულ გვაქვს 120 შემთხვევა. აქედან თითოეულ ელემენტზე:
 4! = 24
@@ -17,7 +18,7 @@ if largest < e:
 როდესაც a = max:
     გვაქვს 1 მინიჭება (1 ხაზზე)
 როდესაც b = max:
-    გვაქვს 2 მინიჭება (1 და 2 ხაზებზე)
+    გვაქვს 2 მინიჭება (1 და 3 ხაზებზე)
 როდესაც c = max:
     გვაქვს 3 მინიჭება (1, 3 და 5 ხაზებზე)
 როდესაც d = max:
